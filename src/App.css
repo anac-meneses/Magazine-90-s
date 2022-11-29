@@ -1,0 +1,73 @@
+/* navBar */
+#navbg {
+  background-color: #4DC3F5;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+}
+
+#navItem {
+  color: #F6EE28;
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* navBar */
+
+
+/* Home */
+#imgCarousel {
+  width: 100%;
+  height: 250px;
+  border-radius: 30px;
+  border: 5px solid #000;
+}
+
+#root {
+  background-image: url("../src/img/grid.svg");
+  background-color: #e98beb7c;
+  height: 100vh;
+}
+
+#imgButton {
+  border: 5px solid #000;
+  background-color: #F6EE28;
+  border-radius: 50px;
+  width: 90px;
+  height: 90px;
+  padding: 5px;
+ 
+}
+#imgButton1{
+  border: 5px solid #000;
+  background-color: #4DC3F5;
+  border-radius: 50px;
+  width: 90px;
+  height: 90px;
+  padding: 5px;
+}
+#imgButton2{
+  border: 5px solid #000;
+  background-color: #F628E2;
+  border-radius: 50px;
+  width: 90px;
+  height: 90px;
+  padding: 5px;
+}
+
+#categoriasLink {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #C90DCD;
+  border: 5px solid #C90DCD;
+  border-radius: 5px;
+}
+
+
+/* Home */
