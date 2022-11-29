@@ -18,8 +18,7 @@ function NavBar() {
                         className="d-inline-block align-top"
                     />
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse direction="horizontal" gap={3}>
+                <Navbar.Collapse>
                     <Nav className="ms-auto" >
                         <Nav.Link id='navItem' href="/">Contato</Nav.Link>
                         <Nav.Link id='navItem' href="/">Produtos</Nav.Link>

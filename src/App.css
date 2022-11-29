@@ -1,3 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../src/img/grid.svg");
+  background-color: #e98beb7c;
+
+}
+
 /* navBar */
 #navbg {
   background-color: #4DC3F5;
@@ -22,12 +36,6 @@
   border: 5px solid #000;
 }
 
-#root {
-  background-image: url("../src/img/grid.svg");
-  background-color: #e98beb7c;
-  height: 100vh;
-}
-
 #imgButton {
   border: 5px solid #000;
   background-color: #F6EE28;
@@ -35,9 +43,10 @@
   width: 90px;
   height: 90px;
   padding: 5px;
- 
+
 }
-#imgButton1{
+
+#imgButton1 {
   border: 5px solid #000;
   background-color: #4DC3F5;
   border-radius: 50px;
@@ -45,7 +54,8 @@
   height: 90px;
   padding: 5px;
 }
-#imgButton2{
+
+#imgButton2 {
   border: 5px solid #000;
   background-color: #F628E2;
   border-radius: 50px;
@@ -58,8 +68,15 @@
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
-
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 10px;
 }
+
+#categoriasLink::-webkit-scrollbar {
+  display: none;
+}
+
 
 hr {
   margin-top: 20px;
@@ -70,4 +87,117 @@ hr {
 }
 
 
-/* Home */
+/* Fim Home */
+
+/* Footer */
+#footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 10%;
+  background: #4DC3F5;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+  position: sticky;
+
+}
+
+#imgfooter {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.linkFooter {
+  padding-left: 5px;
+  margin-top: 20px;
+}
+
+/* Fim Footer */
+
+/* Card Component */
+.cardBody {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+  justify-content: center;
+}
+.oldPrice{
+  text-decoration: line-through;
+  color: grey;
+  margin: 10px;
+}
+
+.buttonCard {
+  background-color: #F6EE28;
+  color: #000;
+  border: none;
+  
+}
+
+.containerCard {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1.2rem;
+
+}
+.containerCard::-webkit-scrollbar{
+  display: none;
+} 
+
+.card {
+  width: 18rem;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: #C90DCD;
+  flex: none;
+}
+
+#imgCard {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardHeader {
+  border-bottom: 5px solid black;
+  text-align: end;
+
+}
+
+#close {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.buttonDiv{
+  width: 100%;
+  text-align: center;
+  
+}
+
+#buttonsCarrousel{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  
+}
+.direita{
+  transform: rotate(180deg);
+}
+
+#setaImg{
+  margin: 20px;
+  width: 30px;
+  height: 30px;
+}
