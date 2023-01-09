@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Magazine-90-s/static/css/main.9885c07f.css",
+    "main.js": "/Magazine-90-s/static/js/main.01b1a152.js",
+    "static/js/787.4424b850.chunk.js": "/Magazine-90-s/static/js/787.4424b850.chunk.js",
+    "static/media/rick1.jpg": "/Magazine-90-s/static/media/rick1.e99d418935046f9e0bfc.jpg",
+    "static/media/rick3.png": "/Magazine-90-s/static/media/rick3.d9356752d4e9d9784b6a.png",
+    "static/media/rick2.jpg": "/Magazine-90-s/static/media/rick2.36c6e068860898601ba6.jpg",
+    "static/media/hom.svg": "/Magazine-90-s/static/media/hom.9e5bf672d4bf00279921803ab1245134.svg",
+    "static/media/cam.svg": "/Magazine-90-s/static/media/cam.00dc3f26ffb2b820b7bae47e6d17bc79.svg",
+    "static/media/magazine.svg": "/Magazine-90-s/static/media/magazine.2f092e5d45a750035b2a50740df0d62f.svg",
+    "static/media/roda.svg": "/Magazine-90-s/static/media/roda.647b3bc289fd25cf1660f1f7d038c5b0.svg",
+    "static/media/bomb.svg": "/Magazine-90-s/static/media/bomb.878a4bc24455f98cc21cfd03028380f2.svg",
+    "static/media/ins.svg": "/Magazine-90-s/static/media/ins.77ae828d48148c49e6b7b763f3d38298.svg",
+    "static/media/nav2.svg": "/Magazine-90-s/static/media/nav2.4a6b5bf1a7ce8b6807d51fc444484852.svg",
+    "static/media/whats.svg": "/Magazine-90-s/static/media/whats.506f32e3fd6a0f54822316fe98a8f603.svg",
+    "static/media/twi.svg": "/Magazine-90-s/static/media/twi.d6c9d7c0fed677180f66e252928680a9.svg",
+    "static/media/fb.svg": "/Magazine-90-s/static/media/fb.9395e884c1bddc1b2c53ce602729952e.svg",
+    "static/media/close.svg": "/Magazine-90-s/static/media/close.1abd60d26fbdf894f41f0676476c6e66.svg",
+    "index.html": "/Magazine-90-s/index.html",
+    "static/media/grid.svg": "/Magazine-90-s/static/media/grid.7a27be5a4e8f6b9a2109.svg",
+    "static/media/arrow.svg": "/Magazine-90-s/static/media/arrow.918819407c4c1c93dcba3bfd57bf9576.svg",
+    "main.9885c07f.css.map": "/Magazine-90-s/static/css/main.9885c07f.css.map",
+    "main.01b1a152.js.map": "/Magazine-90-s/static/js/main.01b1a152.js.map",
+    "787.4424b850.chunk.js.map": "/Magazine-90-s/static/js/787.4424b850.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9885c07f.css",
+    "static/js/main.01b1a152.js"
+  ]
+}
