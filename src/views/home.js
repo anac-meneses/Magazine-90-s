@@ -19,7 +19,7 @@ function Home() {
   const carousel = useRef(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/static/shoes.json').then((response) => response.json()).then(setData);
+    fetch('https://anac-meneses.github.io/json-test/').then((response) => response.json()).then(setData);
   },[]);
 
   const cliqueEsquerda = (e) => {
